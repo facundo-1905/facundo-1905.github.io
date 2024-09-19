@@ -1,0 +1,91 @@
+.productos {
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.produ-titulo {
+    display: flex;
+    background-color: black;
+    color: beige;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.precio {
+    display: flex;
+    background-color: black;
+    color: darkgreen;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 25px;
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+
+}
+
+.articulo {
+    margin: 3px;
+    border: 2px solid black;
+    padding: 0px;
+    height: 10%;
+}
+
+
+.articulo img {
+    display: flex;
+    height: 400px;
+    width: 400px;
+}
+
+.comprar {
+    display: flex;
+    background-color: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: darkgreen;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+--------------------------------
+.img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 30px black; 
+}
+-------------------------------------
+
+
+
+    (
+    minmax(
+        150px
+        1fr
+    )
+    );
+    gap: 16px;
+
+-------------------------------------------
+
+
+    <section class="formato-video">
+
+        <video class="video" src="video1.mp4" controls>1</video>
+        <video class="video" src="video1.mp4" controls>2</video>
+
+
+    </section>

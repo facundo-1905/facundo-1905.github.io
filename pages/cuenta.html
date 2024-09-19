@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/cuenta.css">
+    <title>cuenta</title>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&family=New+Amsterdam&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">tienda</h1>
+
+        <section class="grid">
+            <nav class="navbar">
+                <section class="enlaces-nav">
+                    <a href="#sobre-nosotros">sobre nosotros</a>
+                    <!--enlace interno/ el ID se crea con # seguido del nombre de la seccion-->
+                    <a href="../pages/favoritos.html">favoritos</a> <!--enlaces relativos (fav)-->
+                    <a href="/pages/index.html">incio</a> <!--enlaces relativos (cuenta)-->
+
+                </section>
+
+            </nav>
+
+            <form class="buscador" action="/resultados_busqueda.html" method="get">
+                <input type="search" id="buscar" name="q" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
+            </form>
+
+            <section class="categorias">
+                <a href="../pages/hombre.html">hombre</a>
+                <a href="../pages/mujer.html">mujer</a>
+                <a href="../pages/niño.html">niño</a>
+                <a href="../pages/ofertas.html">ofertas</a>
+
+            </section>
+        </section>
+
+
+
+    </header>
+
+
+    <!-- perfil -->
+    <section id="perfil">
+        <h1 class="produ-titulo">Iniciar Sesion</h1>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <button class="button1">Iniciar Sesión</button>
+
+    </section>
+
+    <!-- ajustes -->
+    <section id="ajustes" class="datos">
+        <h2 class="produ-titulo">Cambiar contraseña</h2>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="Contraseña">
+            <label for="floatingInput">Contraseña actual</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+            <label for="floatingPassword">Nueva contraseña</label>
+          </div>
+        
+        <button class="button1">Cambiar Contraseña</button>
+    </section>
+    
+    <section id="registrarse">
+        <h3 class="produ-titulo">Registrarse</h3>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+
+            </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">Provincia</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Seleccionar...</option>
+                <option>...</option>
+              </select>
+
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Acepto los términos y condiciones
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary button" type="submit">Enviar formulario</button>
+            </div>
+          </form>
+    
+    </section>
+
+
+
+    <footer>
+        <section class="texto">
+            <div id="sobre-nosotros"> <!--seccion al final de pagina principal-->
+                <p>sobre nosotros texto sobre nosotros texto sobre nosotros texto sobre nosotros texto sobre nosotros
+                    texto sobre nosotros texto sobre nosotros texto sobre nosotros texto sobre nosotros texto sobre
+                    nosotros texto sobre nosotros texto sobre nosotros
+                    texto sobre nosotros texto sobre nosotros texto sobre nosotros texto sobre nosotros texto sobre
+                    nosotros texto sobre nosotros texto sobre nosotros texto sobre nosotros texto</p>
+            </div>
+            <div>
+
+                <p>&copy; 2024 Nombre de la Tienda. Todos los derechos reservados.</p>
+
+            </div>
+        </section>
+
+        <section>
+            <ul class="privacidad">
+                <li><a href="/privacidad.html">Política de Privacidad</a></li>
+                <li><a href="/terminos.html">Términos de Servicio</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </section>
+        <section class="redes">
+            <p>Síguenos en redes sociales:</p> <!--enlace absoluto (redes sociales)-->
+            <a href="https://facebook.com/tu-tienda" target="_blank">Facebook</a> |
+            <a href="https://instagram.com/tu-tienda" target="_blank">Instagram</a> |
+            <a href="https://twitter.com/tu-tienda" target="_blank">Twitter</a>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

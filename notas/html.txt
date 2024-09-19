@@ -1,0 +1,56 @@
+ <div class="media">
+        <section>
+            <h2 class="produ-titulo">productos</h2>
+
+            <section class="productos">
+                <div class="articulo">
+                    <article class="articulo1">
+                        <img src="assets/img1.jpg" alt="remera" width="100%">
+                        <a href="#" class="comprar">remera</a>
+                        <strong class="precio">50$</strong>
+                    </article>
+
+                    <article class="articulo2">
+                        <img src="assets/img2.jpg" alt="buzo" width="100%">
+                        <a href="#" class="comprar">buzo</a>
+                        <strong class="precio">50$</strong>
+                    </article>
+
+                    <article class="articulo3">
+                        <img src="assets/img3.jpg" alt="pantalon" width="100%">
+                        <a href="#" class="comprar">pantalon</a>
+                        <strong class="precio">50$</strong>
+                    </article>
+
+                    <article class="articulo4">
+                        <img src="assets/img4.jpg" alt="campera" width="100%">
+                        <a href="#" class="comprar">campera</a>
+                        <strong class="precio">50$</strong>
+                    </article>
+
+                    <article class="articulo5">
+                        <img src="assets/img5.jpg" alt="zapatillas" width="100%">
+                        <a href="#" class="comprar">zapatillas $50</a>
+                        <strong class="precio">50$</strong>
+                    </article>
+
+                    <article class="articulo6">
+                        <img src="assets/img6.jpg" alt="medias" width="100%">
+                        <a href="#" class="comprar">medias</a>
+                        <strong class="precio">50$</strong>
+
+                    </article>
+                </div>
+            </section>
+
+            <ul class="paginacion">
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#" class="active">2</a></li>
+                <li><a href="#" class="active">3</a></li>
+                <li><a href="#" class="active">4</a></li>
+            </ul>
+
+
+
+
+    </div>

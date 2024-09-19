@@ -1,0 +1,45 @@
+.grid {
+    display: grid;
+    grid-template-areas:
+    "buscador""navbar"
+    "categorias""categorias";
+}
+
+.navbar {
+    display: grid;
+    grid-area: navbar;
+    text-align: right;
+    align-items: center;
+    grid-template-areas: 
+    "enlaces-nav""enlaces-nav""enlaces-nav";
+
+
+}
+
+.enlaces-nav {
+    grid-area: enlaces-nav;
+    
+}
+
+.buscador {
+    grid-area: buscador;
+    text-align: center;
+    
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+   
+}
+
+
+
+
+
+
+---FOOTER-------
+
+
+

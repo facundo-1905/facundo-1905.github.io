@@ -1,0 +1,148 @@
+body {
+    background-color: beige;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+header {
+    background-color: black;
+    color: beige;
+    margin: 0;
+    padding: 15px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.logo {
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.categorias a {
+    text-decoration: none;
+    color: beige;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.enlaces-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: beige;
+    margin-left: 15px;
+    margin-top: 0%;
+
+}
+
+.video {
+    display: flex;
+    width: 50%;
+
+}
+
+.formato-video {
+    display: flex;
+
+}
+
+.productos {
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.produ-titulo {
+    display: flex;
+    background-color: black;
+    color: beige;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.articulo {
+    margin: 50px;
+    border: 2px solid black;
+    padding: 0px;
+    height: 10%
+}
+
+
+.articulo img {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+.comprar {
+    display: flex;
+    background-color: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: darkgreen;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+footer {
+    display: flex;
+    background-color: black;
+    color: beige;
+    justify-content: space-around;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texto {
+    display: flex;
+    padding-left: 15px;
+
+}

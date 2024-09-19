@@ -1,0 +1,155 @@
+body {
+    background-color: beige;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: beige;
+    margin: 0;
+    padding: 15px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.logo {
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.categorias a {
+    text-decoration: none;
+    color: beige;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.enlaces-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: beige;
+    margin-left: 15px;
+    margin-top: 0%;
+
+}
+
+
+.produ-titulo {
+    display: flex;
+    background-color: black;
+    color: beige;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+.form-floating {
+    display: flex;
+    background-color: beige;
+    color: darkgreen;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.needs-validation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: beige;
+    color: darkgreen;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+.button {
+    color: black;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    margin-left: 730px;
+    margin-bottom: 15px;
+}
+
+.button1 {
+    color: black;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    margin-left: 700px;
+    margin-bottom: 15px;
+}
+
+
+
+footer {
+    display: grid;
+    grid-template-areas: 
+    "texto texto texto texto texto texto"
+    "privacidad privacidad privacidad redes redes redes";
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+    background-color: black;
+    color: beige;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.texto {
+    grid-area: texto; 
+}
+
+.redes {
+    grid-area: redes;
+}
+
+.privacidad {
+    grid-area: privacidad;
+}
